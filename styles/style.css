@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --corprincipal: #FDFBF9;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Inter,Arial;
+    line-height: 1.6;
+    color: #28282B;
+    background-color: var(--corprincipal);
+}
+header{
+    background-color: #28282B;
+    color: #FDFBF9;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+.nav{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav-logo{
+    color: var(--corprincipal);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    padding: 5px 0;
+}
+.nav-menu{
+    padding: 7px 10px;
+    float: right;
+}
+
+.nav-list{
+    list-style: none;
+}
+.nav-item{
+    display:inline-block;
+    margin-left: 20px;
+}
+.nav-link{
+    color: #A5A5A8;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.nav-link:hover{
+    color: var(--corprincipal);
+    background-color: #7B7B7C;
+    border-radius: 2px;
+}
+section{
+    padding: 80px 0;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #A5A5A8;
+}
+.home{
+    margin-top: 60px;
+    overflow: hidden;
+}
+.home-data{
+    float: left;
+    width: 500px;
+}
+.home-title{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.home-title-color{
+    color: #6577B3;
+}
+.home-img{
+    float: right;
+    width: auto;
+    text-align: center;
+}
+.home-img img{
+    width: 320px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.button{
+    display: inline-block;
+    background-color: #6577B3;
+    color: #FDFBF9;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius:  5px;
+    margin-top: 20px;
+}
+.button:hover{
+    background-color: #7B7B7C;
+}
